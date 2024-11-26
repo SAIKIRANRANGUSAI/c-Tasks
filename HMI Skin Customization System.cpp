@@ -11,6 +11,10 @@ public:
     string fontSize;
     string iconStyle;
 
+    // Default constructor
+    Theme() : backgroundColor("White"), fontColor("Black"), fontSize("Medium"), iconStyle("Standard") {}
+
+    // Parameterized constructor
     Theme(string bg, string font, string size, string icon)
         : backgroundColor(bg), fontColor(font), fontSize(size), iconStyle(icon) {}
 
